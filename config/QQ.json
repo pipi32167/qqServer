@@ -1,0 +1,26 @@
+{
+	"type": "QQ",
+	"appid": "your_appid",
+	"guestappid": "your_guestappid",
+	"appkey": "your_paykey",
+	"enable": true,
+	"sns": {
+		"baseUrl": "http://msdktest.qq.com"
+	},
+	"pay": {
+		"enable": true,
+		"baseUrl": "http://msdktest.qq.com",
+		"payid": "your_appid",
+		"paykey": "your_paykey",
+		"giftid": "your_giftid",
+		"discountid": "your_discountid",
+		"cookies": [
+			"session_id=openid",
+			"session_type=kp_actoken"
+		],
+		"guest_cookies": [
+			"session_id=hy_gameid",
+			"session_type=st_dummy"
+		]
+	}
+}

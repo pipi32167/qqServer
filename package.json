@@ -1,0 +1,12 @@
+{
+  "name": "QQServer",
+  "version": "0.0.1",
+  "dependencies": {
+    "MD5": "1.2.1",
+    "async": "~0.2.10",
+    "crc": "0.2.0",
+    "request": "~2.44.0",
+    "underscore": "*",
+    "underscore.string": "*"
+  }
+}

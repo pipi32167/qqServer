@@ -1,0 +1,25 @@
+{
+  "type": "WX",
+  "appid": "your_appid",
+  "appkey": "your_appkey",
+  "enable": true,
+  "sns": {
+    "baseUrl": "http://msdktest.qq.com"
+  },
+  "relation": {
+    "enable": false
+  },
+  "pay": {
+    "debug": true,
+    "enable": true,
+    "baseUrl": "http://msdktest.qq.com",
+    "payid": "your_payid",
+    "paykey": "your_paykey",
+    "giftid": "your_giftid",
+    "discountid": "your_discountid",
+    "cookies": [
+      "session_id=hy_gameid",
+      "session_type=wc_actoken"
+    ]
+  }
+}
